@@ -1,0 +1,22 @@
+.card-container {
+  display: flex;
+  justify-content: space-around; /* Adjust as needed */
+  margin-bottom: 10px; /* Add margin bottom to create space between cards and table */
+  margin-top: 20px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ant-card {
+  width: 200px;
+  height: 100px;
+  margin: 0; /* Remove default margin */
+}
+
+.table-container {
+  margin-top: 20px; /* Adjust margin top to create space between cards and table */
+}
